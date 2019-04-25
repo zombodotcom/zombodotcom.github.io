@@ -22,10 +22,15 @@
         padding-top: 55px;
         background: lightgray;
       }
+       .navbar .navbar-collapse {
+        text-align: center;
+      }
     </style>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top justify-content-center"
+    >
       <a class="navbar-brand" href="index.html">About</a>
       <button
         class="navbar-toggler"
@@ -38,7 +43,10 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div
+        class="collapse navbar-collapse justify-content-center"
+        id="navbarNavAltMarkup"
+      >
         <div class="navbar-nav">
           <a class="nav-item nav-link" href="index.html">Home</a>
           <a class="nav-item nav-link" href="page1.html">Space Images</a>
@@ -47,34 +55,64 @@
             >About <span class="sr-only">(current)</span></a
           >
           <a class="nav-item nav-link" href="contact.html">Contact</a>
+          <a class="nav-item nav-link" href="resume.html">Resume</a>
+          <a class="nav-item nav-link" href="projects.html">Projects</a>
         </div>
       </div>
     </nav>
 
-    <h1>About Me!</h1>
-    <h2>My name is Tom, and I like to program and make things.</h2>
-    <h3><a href="https://github.com/zombodotcom/">My Github</a></h3>
-    <h3>
-      <a href="https://www.youtube.com/channel/UCWcFBMww7bbA8yMnHxYv1dA"
-        >My Youtube</a
-      >
-    </h3>
-
-    <div class="embed-responsive embed-responsive-16by9">
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/My4ZGVVx4LA"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
+    <div class="container">
+      <div class="row justify-content-center">
+        <h1>About Me!</h1>
+      </div>
+    </div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <h3>My name is Tom</h3>
+    </div>
+  </div>
+  <div class="container text-center">
+    
+      <p>I like to build, fix, and cook things!</p>
+      <p>I want to learn every single day of my life.</p>
+ 
+  </div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <h3><a href="https://github.com/zombodotcom/">My Github</a></h3>
+        </div>
+        </div>
+        <div class="container">
+          <div class="row justify-content-center">
+        <h3>
+          <a href="https://www.youtube.com/channel/UCWcFBMww7bbA8yMnHxYv1dA"
+            >My Youtube</a
+          >
+        </h3>
+         </div>
+    </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/My4ZGVVx4LA"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
     </div>
     <!-- Footer -->
     <footer class="page-footer font-small blue">
       <div class="footer text-center py-3">
         <address>
-          Written by Tom.<br />
+          Written by Tom.
+          <br />
           Contact me through <a href="mailto:tommysciano@gmail.com">Email</a>.
         </address>
       </div>
